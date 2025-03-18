@@ -168,7 +168,7 @@ services:
         type: redis:7.2
 
     es:
-        type: elasticsearch:7.10
+        type: elasticsearch:8.5
 
 routes:
     # The routes of the project.
