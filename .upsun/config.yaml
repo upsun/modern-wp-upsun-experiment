@@ -175,7 +175,7 @@ routes:
     # Each route describes how an incoming URL is going
     # to be processed by Upsun.
 
-    "https://www.eng.org/":
+    "https://www.eng.{default}/":
         type: upstream
         upstream: "eng:http"
         cache:
@@ -188,11 +188,11 @@ routes:
                 - "/^wp-settings-/"
                 - "/^wp-postpass/"
 
-    "https://eng.org/":
+    "https://eng.{default}/":
         type: redirect
-        to: "https://www.eng.org/"
+        to: "https://www.eng.{default}/"
 
-    "https://www.ita.com/":
+    "https://www.ita.{default}/":
         type: upstream
         upstream: "ita:http"
         cache:
@@ -205,6 +205,6 @@ routes:
                 - "/^wp-settings-/"
                 - "/^wp-postpass/"
 
-    "https://ita.com/":
+    "https://ita.{default}/":
         type: redirect
-        to: "https://www.ita.com/"
+        to: "https://www.ita.{default}/"
