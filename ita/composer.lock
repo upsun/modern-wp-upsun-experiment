@@ -535,15 +535,15 @@
         },
         {
             "name": "wpackagist-plugin/wpforms-lite",
-            "version": "1.9.4.2",
+            "version": "1.9.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
-                "reference": "tags/1.9.4.2"
+                "reference": "tags/1.9.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.9.4.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.9.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -573,12 +573,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.0"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
